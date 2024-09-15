@@ -1,0 +1,19 @@
+#main{
+    margin-top: 10px;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+}
+#main>div{
+    /* border: 2px solid yellow; */
+    width: 400px;
+    height: 400px;
+}
+label{
+    margin-top: 5px;
+}
+button{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px;
+}
