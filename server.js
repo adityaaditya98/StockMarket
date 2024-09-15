@@ -19,7 +19,7 @@ app.listen(process.env.PORT, () => {
 });
 const USERNAME = process.env.DB_USERNAME;
 const PASSWORD = process.env.DB_PASSWORD;
-const URL = process.env.MONGODB_URI|| `mongodb+srv://root:Micromax_a63@stockmarketproject.lzlgm.mongodb.net/?retryWrites=true&w=majority&appName=StockMarketProject`;
+const URL = process.env.MONGODB_URI|| ``;
 Connection(URL);
 
 
